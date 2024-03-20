@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+    <a-entity camera look-controls wasd-controls="acceleration:600" position="0 5 30"></a-entity>  
+
+        <!-- Cuarto -->
+        <!-- Pared trasera -->
+        <a-box position="0 20 -25" width="50" height="40" depth="0.1" color="#854F6C"></a-box>
+        <!-- Pared izquierda -->
+        <a-box position="-25 20 0" rotation="0 90 0" width="50" height="40" depth="0.1" color="#854F6C"></a-box>
+        <!-- Pared derecha -->
+        <a-box position="25 20 0" rotation="0 -90 0" width="50" height="40" depth="0.1" color="#854F6C"></a-box>
+        <!-- Techo -->
+        <a-box position="0 40 0" rotation="90 0 0" width="50" height="50" depth="0.1" color="#854F6C"></a-box>
+        <!-- Piso -->
+        <a-plane position="0 0 0" rotation="-90 0 0" width="50" height="50" color="#522B5B"></a-plane>
+
+        <!-- ADN -->
+        <!-- espiral1 -->
+        <a-cylinder position="0 0.5 0" radius="0.5" height="9" rotation="90 0 90" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 2 0" radius="0.5" height="8" rotation="90 0 85" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 4 0" radius="0.5" height="7" rotation="90 0 80" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 6 0" radius="0.5" height="6" rotation="90 0 75" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 8 0" radius="0.5" height="7" rotation="90 0 70" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 10 0" radius="0.5" height="8" rotation="90 0 65" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 12 0" radius="0.5" height="9" rotation="90 0 60" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 14 0" radius="0.5" height="8" rotation="90 0 55" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 16 0" radius="0.5" height="7" rotation="90 0 50" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 18 0" radius="0.5" height="6" rotation="90 0 45" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 20 0" radius="0.5" height="7" rotation="90 0 40" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 22 0" radius="0.5" height="8" rotation="90 0 35" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 24 0" radius="0.5" height="9" rotation="90 0 30" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 26 0" radius="0.5" height="8" rotation="90 0 25" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 28 0" radius="0.5" height="7" rotation="90 0 20" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 30 0" radius="0.5" height="6" rotation="90 0 15" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 32 0" radius="0.5" height="7" rotation="90 0 10" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 34 0" radius="0.5" height="8" rotation="90 0 10" color="#FFC872"></a-cylinder>
+        <a-cylinder position="0 36 0" radius="0.5" height="9" rotation="90 0 10" color="#FFC872"></a-cylinder>
+
+        <!-- espiral2 -->
+        <a-cylinder position="9 0.5 9" radius="0.5" height="6" rotation="90 0 90" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 2 9" radius="0.5" height="5" rotation="90 0 85" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 4 9" radius="0.5" height="4" rotation="90 0 80" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 6 9" radius="0.5" height="3" rotation="90 0 75" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 8 9" radius="0.5" height="4" rotation="90 0 70" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 10 9" radius="0.5" height="5" rotation="90 0 65" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 12 9" radius="0.5" height="6" rotation="90 0 60" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 14 9" radius="0.5" height="5" rotation="90 0 55" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 16 9" radius="0.5" height="4" rotation="90 0 50" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 18 9" radius="0.5" height="3" rotation="90 0 45" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 20 9" radius="0.5" height="4" rotation="90 0 40" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 22 9" radius="0.5" height="5" rotation="90 0 35" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 24 9" radius="0.5" height="6" rotation="90 0 35" color="#FB98B8"></a-cylinder>
+
+        <!-- espiral3 -->
+        <a-cylinder position="-9 0.5 -9" radius="0.5" height="6" rotation="90 0 90" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 2 -9" radius="0.5" height="5" rotation="90 0 85" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 4 -9" radius="0.5" height="4" rotation="90 0 80" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 6 -9" radius="0.5" height="3" rotation="90 0 75" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 8 -9" radius="0.5" height="4" rotation="90 0 70" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 10 -9" radius="0.5" height="5" rotation="90 0 65" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 12 -9" radius="0.5" height="6" rotation="90 0 60" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 14 -9" radius="0.5" height="5" rotation="90 0 55" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 16 -9" radius="0.5" height="4" rotation="90 0 50" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 18 -9" radius="0.5" height="3" rotation="90 0 45" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 20 -9" radius="0.5" height="4" rotation="90 0 40" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 22 -9" radius="0.5" height="5" rotation="90 0 35" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 24 -9" radius="0.5" height="6" rotation="90 0 35" color="#FB98B8"></a-cylinder>
+
+        <!-- espiral4 -->
+        <a-cylinder position="9 0.5 -9" radius="0.5" height="6" rotation="90 0 90" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 2 -9" radius="0.5" height="5" rotation="90 0 85" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 4 -9" radius="0.5" height="4" rotation="90 0 80" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 6 -9" radius="0.5" height="3" rotation="90 0 75" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 8 -9" radius="0.5" height="4" rotation="90 0 70" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 10 -9" radius="0.5" height="5" rotation="90 0 65" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 12 -9" radius="0.5" height="6" rotation="90 0 60" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 14 -9" radius="0.5" height="5" rotation="90 0 55" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 16 -9" radius="0.5" height="4" rotation="90 0 50" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 18 -9" radius="0.5" height="3" rotation="90 0 45" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 20 -9" radius="0.5" height="4" rotation="90 0 40" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 22 -9" radius="0.5" height="5" rotation="90 0 35" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="9 24 -9" radius="0.5" height="6" rotation="90 0 35" color="#FB98B8"></a-cylinder>
+
+        <!-- espiral5 -->
+        <a-cylinder position="-9 0.5 9" radius="0.5" height="6" rotation="90 0 90" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 2 9" radius="0.5" height="5" rotation="90 0 85" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 4 9" radius="0.5" height="4" rotation="90 0 80" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 6 9" radius="0.5" height="3" rotation="90 0 75" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 8 9" radius="0.5" height="4" rotation="90 0 70" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 10 9" radius="0.5" height="5" rotation="90 0 65" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 12 9" radius="0.5" height="6" rotation="90 0 60" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 14 9" radius="0.5" height="5" rotation="90 0 55" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 16 9" radius="0.5" height="4" rotation="90 0 50" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 18 9" radius="0.5" height="3" rotation="90 0 45" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 20 9" radius="0.5" height="4" rotation="90 0 40" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 22 9" radius="0.5" height="5" rotation="90 0 35" color="#FB98B8"></a-cylinder>
+        <a-cylinder position="-9 24 9" radius="0.5" height="6" rotation="90 0 35" color="#FB98B8"></a-cylinder>
